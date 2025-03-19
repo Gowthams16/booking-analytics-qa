@@ -75,4 +75,8 @@ GET: http://0.0.0.0:8000/health
 ]
 }
 
+## **Challenges Faced**
+While working with Llama 2 and Mistral models, I faced several challenges, primarily due to their large size and high computational requirements. Both models demand significant GPU resources (at least 16GB VRAM), which were not available on my local machine. Additionally, Llama 2 is a gated model, requiring explicit access approval from Meta, which added complexity to the setup process. Mistral, while open, also posed challenges due to its memory-intensive nature, leading to frequent out-of-memory (OOM) errors on systems with limited resources. To overcome these limitations, I opted for GPT-Neo (1.3B), a smaller and more lightweight model that is easier to run on consumer-grade hardware. GPT-Neo provided a balance between performance and resource efficiency, allowing me to implement the retrieval-augmented generation (RAG) system without compromising on functionality. This decision ensured smoother development and deployment, especially for users with limited access to high-end GPUs.
+
+
 ## **Check the results folder to see the screenshots of the results**
