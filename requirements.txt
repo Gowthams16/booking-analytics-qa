@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+matplotlib
+sentence-transformers
+faiss-cpu
+transformers
+torch
+huggingface_hub
