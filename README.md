@@ -65,7 +65,7 @@ POST: http://0.0.0.0:8000/ask
 }
 
 GET: http://0.0.0.0:8000/health
-2. Expected Result:
+1. Expected Result:
 {
 "status": "healthy",
 "dependencies": [
@@ -75,4 +75,4 @@ GET: http://0.0.0.0:8000/health
 ]
 }
 
-**Check the results folder to see the screenshots of the results**
+## **Check the results folder to see the screenshots of the results**
