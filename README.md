@@ -54,10 +54,10 @@
 ### **API Endpoints**
 
 POST: http://0.0.0.0:8000/analytics
-Expected Result: Generates and displays analytics reports.
+1. Expected Result: Generates and displays analytics reports.
 
 POST: http://0.0.0.0:8000/ask
-Expected Result:
+1. Expected Result:
 {
 "question": "Which country has the highest bookings?",
 "answer": "Answer the question based on the following context:\nContext:\nBookings by country:\n- PRT: 10353 bookings\n-
@@ -65,7 +65,7 @@ Expected Result:
 }
 
 GET: http://0.0.0.0:8000/health
-Expected Result:
+2. Expected Result:
 {
 "status": "healthy",
 "dependencies": [
